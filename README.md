@@ -3,7 +3,7 @@
 
 This project is made using React and HTML and CSS only . No external libraries are used, neither UI nor Functionality, in this project to demonstrate the basic concepts of React, Javascript and front-end development.
 
-_Note_: This project is not optimised for mobile view . It is recommended to view this project in 1440x800 (Resolution used for the figma UI ) resolution for the best view . Atleast a laptop or desktop screen dimention is suitable for this site.
+**_Note_**: This project is not optimised for mobile view . It is recommended to view this project in 1440x800 (Resolution used for the figma UI ) resolution for the best view . Atleast a laptop or desktop screen dimention is suitable for this site.
 
 ## To run this project, follow the below steps:
 
