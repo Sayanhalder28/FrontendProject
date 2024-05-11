@@ -1,0 +1,43 @@
+.button {
+  width: max-content;
+  height: max-content;
+  padding: 25px 35px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.one {
+  border: #eaeaea;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.one:hover {
+  border: 1.31px solid #eaeaea;
+  background-color: #f1f1f1;
+}
+
+.two {
+  color: #ffffff;
+  background-color: #1c1c1c;
+  border: 2px solid #1c1c1c;
+}
+
+.two:hover {
+  background-color: #4e4e4e;
+  border: 2px solid #4e4e4e;
+}
+
+.oneDeactivated {
+  color: #ffffff;
+  background-color: #c9c9c9;
+}
+
+.twoDeactivated {
+  color: #ffffff;
+  background-color: #c9c9c9;
+}

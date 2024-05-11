@@ -1,0 +1,58 @@
+.heading {
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.heading span {
+  margin: 0;
+  font-family: "Covered By Your Grace", cursive;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 40px;
+  color: #2da950;
+}
+
+.heading p {
+  margin: 10px auto;
+  font-family: 'Manrope';
+  font-size: 27px;
+  font-weight: 500;
+  line-height: 35.1px;
+  text-align: center;
+  color: #727272;
+  animation: moveDownToFront 1s ease;
+}
+
+.heading h1 {
+  margin: 0;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 67px;
+  color: #1c1c1c;
+  animation: scaleIn 0.5s ease forwards;
+}
+
+@keyframes scaleIn {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes moveDownToFront {
+  0% {
+    transform: translateY(80%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+

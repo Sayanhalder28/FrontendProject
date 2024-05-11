@@ -1,0 +1,45 @@
+.container {
+  padding: 20px;
+}
+
+.content {
+  width: 100%;
+  padding: 15px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: #eaeaea;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.removeBorder {
+  border: #ffffff;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.brandLogo {
+  width: 110px;
+  margin-left: 35px;
+}
+
+.btnContainer {
+  min-height: 78px;
+  display: flex;
+  gap: 10px;
+  place-items: center;
+}
+
+.crossLogo {
+  width: 65px !important ;
+  height: 65px !important ;
+  padding: 0 !important;
+  border-radius: 100px !important ;
+  display: flex !important ;
+}
+
+.crossLogo img {
+  margin: auto;
+}

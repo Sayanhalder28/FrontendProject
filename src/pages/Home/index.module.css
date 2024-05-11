@@ -1,0 +1,314 @@
+.container {
+  width: 100vw;
+  padding: 25px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  overflow: hidden;
+  position: relative;
+}
+
+.heroSection {
+  height: 1044px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.heroBody {
+  flex: 1;
+  display: flex;
+}
+
+.heroLeftHalf {
+  width: 50%;
+ display: flex;
+ justify-content: end;
+}
+
+.leftHalfAdd {
+  width: 695px;
+  height: max-content;
+  margin-top: 100px;
+  display: flex;
+  justify-content: end;
+  position: relative;
+}
+
+.leftHalfAdd img {
+  width: 500px;
+}
+
+.leftHalfAdd .cardOne {
+  padding: 30px;
+  width: max-content;
+  height: max-content;
+  background-color: #ffffff;
+  position: absolute;
+  top: 100;
+  left: 50;
+  border-radius: 30px;
+  box-shadow: 0px 22.59px 36.14px 0px #1e1e1e17;
+  animation: slideInFromLeft 1.5s ease forwards;
+}
+
+.leftHalfAdd .cardOne img {
+  width: 100px;
+  position: absolute;
+  top: -12;
+  left: -10;
+}
+
+.leftHalfAdd .cardOne h1 {
+  margin: 10px 0px 0px;
+  font-family: "Switzer-Variable";
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 76.8px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+.leftHalfAdd .cardOne p {
+  width: 200px;
+  margin-bottom: 0;
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23.4px;
+  text-align: left;
+  color: #828282;
+}
+
+.leftHalfAdd .cardTwo {
+  padding: 15px;
+  width: max-content;
+  height: max-content;
+  background-color: #ffffff;
+  display: flex;
+  position: absolute;
+  bottom: 45;
+  left: 130;
+  border-radius: 111px;
+  box-shadow: 0px 15.21px 35.49px 0px #00000017;
+  animation: scaleIn 1.5s ease forwards;
+}
+
+.leftHalfAdd .cardTwo img {
+  /* margin: 10px; */
+  width: 52px;
+}
+
+.leftHalfAdd .cardTwo h2 {
+  margin: 0px 15px;
+  font-family: Manrope;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32.78px;
+  text-align: left;
+}
+
+.leftHalfAdd .cardTwo p {
+  margin: 0;
+  font-family: "Manrope";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.8px;
+  text-align: left;
+  color: #828282;
+  text-wrap: nowrap;
+}
+
+.leftHalfAdd .cardThree {
+  width: max-content;
+  height: max-content;
+  padding: 34px 30px 40px 36px;
+  position: absolute;
+  bottom: -55;
+  right: -70;
+  background: #002e18;
+  border-radius: 30px;
+  border: 1px solid #3d3d3d;
+  box-shadow: 0px 23.63px 37.81px 0px #1e1e1e17;
+  animation: slideInFromBottom 1.5s ease forwards;
+}
+
+.leftHalfAdd .cardThree span {
+  margin: 0;
+  font-family: "Switzer-Variable";
+  font-size: 63.37px;
+  font-weight: 500;
+  line-height: 76.05px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #ffffff;
+  text-wrap: nowrap;
+}
+
+.leftHalfAdd .cardThree span span {
+  font-family: "Switzer-Variable";
+  padding: 0;
+  margin: 0;
+  font-size: 22.81px;
+  font-weight: 500;
+  line-height: 31.94px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #a6a3a0;
+}
+
+.leftHalfAdd .cardThree p {
+  margin: 0;
+  width: 200px;
+  font-family: "Manrope";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23.4px;
+  text-align: left;
+  color: #cccccc;
+}
+
+.heroRightHalf {
+  width: 50%;
+  padding-left: 190px;
+}
+
+.rightHalfCarousel {
+  height: 35%;
+  max-width: 450px;
+  margin-top: 140px;
+}
+
+.rightHalfBtn {
+  margin-top: 120px;
+  font-size: 20px;
+}
+
+.faqSection {
+  min-height: 700px;
+  background-color: #e8eee7;
+  border-radius: 40px;
+  display: flex;
+}
+
+.faqLeftHalf {
+  width: 40%;
+  padding-right: 5%;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.faqRightHalf {
+  width: 60%;
+  padding: 60px;
+  padding-top: 100px;
+}
+
+.faqLeftHalf div {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+}
+
+.faqLeftHalf img {
+  width: 100%;
+  max-width: 500px;
+}
+
+.faqLeftHalf div i {
+  font-family: "Covered By Your Grace", cursive;
+  font-weight: 400;
+  font-size: 32px;
+  font-style: normal;
+  color: #9e9d9d;
+}
+
+.faqLeftHalf h1 {
+  margin: 0;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.gridElement {
+  width: 572px;
+  aspect-ratio: 1/1;
+  position: absolute;
+  top: 250;
+  right: -110;
+  z-index: -1;
+  animation: slideInFromRight 1s ease forwards;
+}
+
+/* .faqLeftHalf img {
+  width: 70%;
+} */
+
+.footerSection {
+  padding: 50px;
+  background-color: #f5f5f5;
+  border-radius: 40px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+}
+
+.linkContainer {
+  display: flex;
+  gap: 30px;
+}
+
+.linkContainer a {
+  color: #1c1c1c;
+}
+
+@keyframes slideInFromLeft {
+  from {
+    transform: translateX(-80%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromRight {
+  from {
+    transform: translateX(80%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromBottom {
+  from {
+    transform: translateY(80%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
