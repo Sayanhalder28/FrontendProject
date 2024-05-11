@@ -1,4 +1,3 @@
-// import React from "react";
 import Style from "./index.module.css";
 
 function GridUi() {

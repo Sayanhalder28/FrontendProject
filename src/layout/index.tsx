@@ -1,4 +1,3 @@
-// import React from "react";
 import { Outlet, useLocation } from "react-router-dom";
 import TopBar from "./TopBar";
 import Style from "./index.module.css";

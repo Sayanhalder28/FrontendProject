@@ -1,4 +1,3 @@
-// import React from "react";
 import Style from "./index.module.css";
 import BrandLogo from "../../assets/brandLogo.svg";
 import crossLogo from "../../assets/crossLogo.svg";

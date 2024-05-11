@@ -1,4 +1,3 @@
-// import React from "react";
 import Style from "./index.module.css";
 import faqLogo from "../../assets/faqLogo.svg";
 import DropDownMenu from "../../components/DropDownMenu";
