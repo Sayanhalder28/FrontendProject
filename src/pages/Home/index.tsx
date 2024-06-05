@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Style from "./index.module.css";
 import faqLogo from "../../assets/faqLogo.svg";
 import DropDownMenu from "../../components/DropDownMenu";
@@ -5,12 +6,14 @@ import GridUi from "../../components/ui/GridUi";
 import Carousel from "../../components/Carousel";
 import Button from "../../components/Button";
 import arrow from "../../assets/arrow.svg";
-import potrait from "../../assets/potrait.png";
+import potrait from "../../assets/potrait.jpg";
 import spark from "../../assets/spark.svg";
 import roketIcon from "../../assets/roketIcon.svg";
 import Heading from "../../components/ui/Heading";
 
 function Home() {
+  const [imageLoaded, setImageLoaded] = useState(false);
+
   return (
     <div className={Style.container}>
       {/* add section */}
@@ -25,7 +28,18 @@ function Home() {
         <div className={Style.heroBody}>
           <div className={Style.heroLeftHalf}>
             <div className={Style.leftHalfAdd}>
-              <img src={potrait} alt="girl potrait" />
+              <div className={Style.potrait}>
+                <img
+                  src={potrait}
+                  alt="girl potrait"
+                  style={{
+                    opacity: imageLoaded ? 1 : 0,
+                  }}
+                  onLoad={() => {
+                    setImageLoaded(true);
+                  }}
+                />
+              </div>
               <div className={Style.cardOne}>
                 <img src={spark} alt="spark" />
                 <h1>40%</h1>
